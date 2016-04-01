@@ -6,12 +6,24 @@ import  static kursk.Kutils.*;
  * Created by kursk on 2016/4/1.
  */
 public class Rodent {
+    private static RandomRodentGenerator rrg = new RandomRodentGenerator();
+
     void dig(){
         print("Rodent dig");
     }
 
     void eat(){
         print("Rodent eat");
+    }
+
+    public static void main(String[] args) {
+        Rodent[] s = new Rodent[9];
+        // Fill up the array with shapes:
+        for(int i = 0; i < s.length; i++)
+            s[i] = rrg.next();
+        // Make polymorphic method calls:
+        for(Rodent shp : s)
+            shp.dig();
     }
 }
 
