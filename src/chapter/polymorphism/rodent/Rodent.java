@@ -1,4 +1,4 @@
-package chapter.ten.rodent;
+package chapter.polymorphism.rodent;
 
 import static kursk.Kutils.*;
 

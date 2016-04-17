@@ -10,6 +10,6 @@ public class Kutils {
     }
 
     static public void print(Object obj) {
-        System.out.print(obj);
+        System.out.println(obj);
     }
 }

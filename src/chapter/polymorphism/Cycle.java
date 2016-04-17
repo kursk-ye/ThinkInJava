@@ -1,4 +1,4 @@
-package chapter.ten;
+package chapter.polymorphism;
 /**
  * Created by kursk on 2016/3/28.
  */

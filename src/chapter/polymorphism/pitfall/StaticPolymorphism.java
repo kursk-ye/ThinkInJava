@@ -1,4 +1,4 @@
-package chapter.ten.pitfall;
+package chapter.polymorphism.pitfall;
 
 /**
  * Created by kursk on 2016/4/11.

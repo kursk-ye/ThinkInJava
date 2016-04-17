@@ -1,4 +1,4 @@
-package chapter.ten.music;
+package chapter.polymorphism.music;
 
 import java.util.Random;
 

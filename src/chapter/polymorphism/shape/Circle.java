@@ -1,4 +1,4 @@
-package chapter.ten.shape;
+package chapter.polymorphism.shape;
 
 import static kursk.Kutils.*;
 

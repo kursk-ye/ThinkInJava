@@ -1,4 +1,4 @@
-package chapter.ten.rodent;
+package chapter.polymorphism.rodent;
 
 /**
  * Created by kursk on 4/2/2016.
