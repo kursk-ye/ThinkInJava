@@ -9,11 +9,11 @@ public class Rodent {
     private static RandomRodentGenerator rrg = new RandomRodentGenerator();
 
     void dig() {
-        print("Rodent dig");
+        print("rodent dig");
     }
 
     void eat() {
-        print("Rodent eat");
+        print("rodent eat");
     }
 
     public static void main(String[] args) {
