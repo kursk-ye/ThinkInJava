@@ -9,7 +9,7 @@ public class RandomRodentGenerator {
 
 }
 
-class Gorbil extends Rodent {
+class Gorbil implements Rodent {
 
      public void dig() {
         print("Gorbil dig");
@@ -20,7 +20,7 @@ class Gorbil extends Rodent {
     }
 }
 
-class Hamster extends Rodent {
+class Hamster implements Rodent {
      public void dig() {
         print("Hamster dig");
     }

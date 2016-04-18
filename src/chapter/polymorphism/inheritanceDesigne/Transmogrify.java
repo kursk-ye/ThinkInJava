@@ -5,23 +5,25 @@ import static kursk.Kutils.*;
  * Created by kursk on 2016/4/16.
  */
 class Vehicle {
+    protected int num;
     void move(){}
 }
 
 class Car extends Vehicle {
-    void move(){
+     int num;
+    public void move(){
         print("car move");
     }
 }
 
 class Bus extends Vehicle {
-    void move(){
+    protected void move(){
         print("bus move");
     }
 }
 
 class Bicycle extends Vehicle {
-    void  move() {print("Bicycle move");}
+    public void  move() {print("Bicycle move");}
     void  balance() {print("Bicycle balance");}
 }
 

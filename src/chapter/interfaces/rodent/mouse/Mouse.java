@@ -7,14 +7,14 @@ import static kursk.Kutils.print;
 /**
  * Created by kursk on 2016/4/17.
  */
-public class Mouse extends Rodent {
+public class Mouse implements Rodent {
 
 
-     protected void dig() {
+    public void dig() {
         print("mouse dig");
     }
 
-     protected void eat() {
+    public void eat() {
         print("mouse eat");
     }
 }
