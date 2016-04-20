@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c81b43-18cd-42c8-a51f-f4e8060a4b87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/page320/sandwich/Sandwich.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/apply/Apply.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/apply/FilterAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/apply/Processor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/apply/StringProcessor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/filter/BandPass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/filter/Filter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/filter/HighPass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/filter/LowPass.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/interfaces/filter/Waveform.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/interfaces/page315/Base.java" afterPath="$PROJECT_DIR$/src/chapter/interfaces/page315/Base.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/interfaces/page320/sandwich/Sandwich.java" afterPath="$PROJECT_DIR$/src/chapter/interfaces/page320/sandwich/Sandwich.java" />
     </list>
     <ignored path="ThinkInJava.iws" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,15 +39,131 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Sandwich.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/page320/sandwich/Sandwich.java">
+      <file leaf-file-name="JAVA/chapter.interfaces" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/chapter.interfaces">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>chapter.interfaces</OriginalElement>
+              <nodes>
+                <node x="426.0" y="539.5">chapter.interfaces.filter.HighPass</node>
+                <node x="264.0" y="738.0">chapter.interfaces.apply.FilterProcessor</node>
+                <node x="234.0" y="539.5">chapter.interfaces.filter.LowPass</node>
+                <node x="630.0" y="575.0">chapter.interfaces.filter.Waveform</node>
+                <node x="244.0" y="401.0">chapter.interfaces.filter.Filter</node>
+                <node x="311.0" y="0.0">chapter.interfaces.apply.Processor</node>
+                <node x="204.0" y="302.0">chapter.interfaces.apply.Splitter</node>
+                <node x="220.0" y="151.0">chapter.interfaces.apply.StringProcessor</node>
+                <node x="408.0" y="302.0">chapter.interfaces.apply.Upcase</node>
+                <node x="418.0" y="118.0">chapter.interfaces.apply.FilterAdapter</node>
+                <node x="-163.0" y="396.0">chapter.interfaces.apply.Apply</node>
+                <node x="0.0" y="302.0">chapter.interfaces.apply.Downcase</node>
+                <node x="0.0" y="528.0">chapter.interfaces.filter.BandPass</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="chapter.interfaces.apply.StringProcessor" target="chapter.interfaces.apply.Processor">
+                  <point x="0.0" y="-38.5" />
+                  <point x="296.0" y="102.0" />
+                  <point x="349.0" y="102.0" />
+                  <point x="-38.0" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.apply.Upcase" target="chapter.interfaces.apply.StringProcessor">
+                  <point x="0.0" y="-27.0" />
+                  <point x="500.0" y="277.0" />
+                  <point x="346.66666666666663" y="277.0" />
+                  <point x="50.66666666666663" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.apply.Apply" target="chapter.interfaces.apply.Upcase">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.Downcase" target="chapter.interfaces.apply.StringProcessor">
+                  <point x="0.0" y="-27.0" />
+                  <point x="92.0" y="277.0" />
+                  <point x="245.33333333333334" y="277.0" />
+                  <point x="-50.66666666666666" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.filter.LowPass" target="chapter.interfaces.filter.Filter">
+                  <point x="0.0" y="-51.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterAdapter" target="chapter.interfaces.apply.Processor">
+                  <point x="0.0" y="-62.5" />
+                  <point x="478.0" y="102.0" />
+                  <point x="425.0" y="102.0" />
+                  <point x="38.0" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.filter.HighPass" target="chapter.interfaces.filter.Filter">
+                  <point x="0.0" y="-51.0" />
+                  <point x="512.0" y="503.0" />
+                  <point x="370.66666666666663" y="503.0" />
+                  <point x="50.66666666666663" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.apply.Splitter" target="chapter.interfaces.apply.StringProcessor">
+                  <point x="0.0" y="-27.0" />
+                  <point x="0.0" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.LowPass">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.Waveform">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.HighPass">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.filter.BandPass" target="chapter.interfaces.filter.Filter">
+                  <point x="0.0" y="-62.5" />
+                  <point x="107.0" y="503.0" />
+                  <point x="269.33333333333337" y="503.0" />
+                  <point x="-50.66666666666666" y="38.5" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterAdapter" target="chapter.interfaces.filter.Filter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.Apply" target="chapter.interfaces.apply.Splitter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.Apply" target="chapter.interfaces.apply.Downcase">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.BandPass">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.apply.FilterAdapter">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="302.5" y="289.5" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/apply/FilterAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8518519">
-              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-              <folding>
-                <element signature="e#805#806#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,24 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/LogsApp.java" />
-        <option value="$PROJECT_DIR$/src/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/Amphibian.java" />
-        <option value="$PROJECT_DIR$/src/FinalData.java" />
-        <option value="$PROJECT_DIR$/src/FinalOverridingIllusion.java" />
-        <option value="$PROJECT_DIR$/src/Beetle.java" />
-        <option value="$PROJECT_DIR$/src/LoadClass.java" />
-        <option value="$PROJECT_DIR$/src/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/Cycle.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/shape/RandomShapeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/Util.java" />
-        <option value="$PROJECT_DIR$/src/kursk/Util.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/shape/Triangle.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/shape/Square.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/shape/Shape.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/shape/Shapes.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/shape/Circle.java" />
-        <option value="$PROJECT_DIR$/src/chapter/ten/music/Note.java" />
         <option value="$PROJECT_DIR$/src/chapter/ten/music/RandomInstrument.java" />
         <option value="$PROJECT_DIR$/src/chapter/ten/music/RandomInstrumentGenerator.java" />
         <option value="$PROJECT_DIR$/src/chapter/ten/music/Music3.java" />
@@ -112,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/chapter/polymorphism/downcast/RTTI.java" />
         <option value="$PROJECT_DIR$/src/chapter/interfaces/instrument/Instrument.java" />
         <option value="$PROJECT_DIR$/src/kursk/Kutils.java" />
-        <option value="$PROJECT_DIR$/src/chapter/interfaces/page315/Base.java" />
         <option value="$PROJECT_DIR$/src/chapter/interfaces/page320/inter/Electronics.java" />
         <option value="$PROJECT_DIR$/src/chapter/interfaces/page320/implement/Mobile.java" />
         <option value="$PROJECT_DIR$/src/chapter/interfaces/rodent/Rodent.java" />
@@ -120,6 +227,25 @@
         <option value="$PROJECT_DIR$/src/chapter/interfaces/rodent/mouse/Mouse.java" />
         <option value="$PROJECT_DIR$/src/chapter/polymorphism/inheritanceDesigne/Transmogrify.java" />
         <option value="$PROJECT_DIR$/src/chapter/interfaces/page320/sandwich/Sandwich.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/Apply.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/FilterProcessor.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/Processor.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/StringProcessor.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/Filter.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/Waveform.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/BandPass.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/HighPass.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/interfaceprocessor/LowPass.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/page315/Base.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/filter/Waveform.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/apply/Processor.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/apply/StringProcessor.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/filter/LowPass.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/filter/HighPass.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/filter/Filter.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/filter/BandPass.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/apply/Apply.java" />
+        <option value="$PROJECT_DIR$/src/chapter/interfaces/apply/FilterAdapter.java" />
       </list>
     </option>
   </component>
@@ -164,27 +290,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
@@ -248,60 +353,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page320" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sandwich" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sandwich.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="page320" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -315,87 +389,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="SearchEverywhereHistoryKey" value="Objects&#9;PSI&#9;JAVA://java.util.Objects" />
   </component>
-  <component name="RunManager" selected="Application.Derived">
-    <configuration default="false" name="PolyConstructors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter.polymorphism.confuse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.polymorphism.confuse.PolyConstructors" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkInJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Transmogrify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter.polymorphism.inheritanceDesigne.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.polymorphism.inheritanceDesigne.Transmogrify" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkInJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RTTI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter.polymorphism.downcast.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.polymorphism.downcast.RTTI" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkInJava" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Base" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="chapter.interfaces.page315.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.interfaces.page315.Base" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ThinkInJava" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.FilterProcessor">
     <configuration default="false" name="Derived" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -404,6 +398,86 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="chapter.interfaces.page315.Derived" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkInJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Apply" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter.interfaces.apply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter.interfaces.apply.Apply" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkInJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter.interfaces.apply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter.interfaces.apply.StringProcessor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkInJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Filter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter.interfaces.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter.interfaces.filter.Filter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThinkInJava" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FilterProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="chapter.interfaces.apply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="chapter.interfaces.apply.FilterProcessor" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -839,19 +913,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.PolyConstructors" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Transmogrify" />
-      <item index="2" class="java.lang.String" itemvalue="Application.RTTI" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Base" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Derived" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Derived" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Apply" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StringProcessor" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Filter" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FilterProcessor" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Derived" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Base" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Transmogrify" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RTTI" />
-        <item index="4" class="java.lang.String" itemvalue="Application.PolyConstructors" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FilterProcessor" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Apply" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Filter" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringProcessor" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Derived" />
       </list>
     </recent_temporary>
   </component>
@@ -883,7 +957,9 @@
       <workItem from="1460592237966" duration="6684000" />
       <workItem from="1460622676275" duration="756000" />
       <workItem from="1460648515495" duration="1459000" />
-      <workItem from="1460779827665" duration="17695000" />
+      <workItem from="1460779827665" duration="18427000" />
+      <workItem from="1461035166177" duration="1545000" />
+      <workItem from="1461115407180" duration="10081000" />
     </task>
     <task id="LOCAL-00001" summary="add vcs.xml">
       <created>1459490934774</created>
@@ -981,11 +1057,17 @@
       <option name="project" value="LOCAL" />
       <updated>1460972396050</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add rodent main method">
+      <created>1460972959043</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1460972959043</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117454000" />
+    <option name="totallyTimeSpent" value="129812000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1007,10 +1089,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13926175" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28020135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27948305" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23506892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22740741" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2488889" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1106,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1064,42 +1147,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter/polymorphism/novel/Record.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/polymorphism/music/RandomInstrumentGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.383812">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0708215">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/polymorphism/music/Music3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039215688">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/ThinkInJava/Villain.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/ThinkInJava/Orc.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1195,7 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5393836">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,10 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#263#264#0" expanded="false" />
-            <element signature="e#304#305#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1214,14 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="44" selection-end-column="1" />
-          <folding>
-            <element signature="e#476#477#0" expanded="false" />
-            <element signature="e#538#539#0" expanded="false" />
-            <element signature="e#822#823#0" expanded="false" />
-            <element signature="e#928#929#0" expanded="false" />
-            <element signature="e#1008#1009#0" expanded="false" />
-            <element signature="e#1050#1051#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2962963">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1237,7 +1270,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2962963">
           <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1245,7 +1277,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5185185">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1253,7 +1284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6296296">
           <caret line="28" column="46" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,7 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5555556">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1269,7 +1298,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="1" selection-start-line="7" selection-start-column="7" selection-end-line="69" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1277,7 +1305,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25925925">
           <caret line="7" column="34" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,12 +1312,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4814815">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#268#269#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1298,15 +1319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.2962963">
           <caret line="36" column="19" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44444445">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1314,10 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3325">
           <caret line="595" column="16" selection-start-line="595" selection-start-column="16" selection-end-line="595" selection-end-column="16" />
-          <folding>
-            <element signature="e#20830#20831#0" expanded="true" />
-            <element signature="e#20870#20871#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1333,18 +1340,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/page315/Base.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="14" />
-          <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#242#243#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1352,7 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6825">
           <caret line="23" column="11" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1360,9 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.58">
           <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1371,8 +1362,8 @@
         <state vertical-scroll-proportion="0.735">
           <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
           <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1381,18 +1372,363 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/page320/sandwich/Sandwich.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8518519">
-          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/page315/Base.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39152542">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6978417">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="30" />
           <folding>
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/filter/Waveform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28474575">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/filter/HighPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/filter/BandPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/apply/StringProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/apply/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/filter/LowPass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/filter/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/apply/Apply.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.interfaces.apply.FilterAdapter">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.interfaces.apply.FilterAdapter</OriginalElement>
+          <nodes>
+            <node x="" y="">chapter.interfaces.apply.FilterAdapter</node>
+            <node x="" y="">chapter.interfaces.apply.Processor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="54.5" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.interfaces.apply.StringProcessor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.interfaces.apply.StringProcessor</OriginalElement>
+          <nodes>
+            <node x="" y="">chapter.interfaces.apply.Processor</node>
+            <node x="" y="">chapter.interfaces.apply.StringProcessor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.interfaces.apply.FilterProcessor">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.interfaces.apply.FilterProcessor</OriginalElement>
+          <nodes>
+            <node x="" y="">chapter.interfaces.apply.FilterProcessor</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="60.0" y="15.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.interfaces.rodent.Hamster">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.interfaces.rodent.Hamster</OriginalElement>
+          <nodes>
+            <node x="" y="">chapter.interfaces.rodent.Rodent</node>
+            <node x="" y="">chapter.interfaces.rodent.Hamster</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="41.5" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.polymorphism">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.polymorphism</OriginalElement>
+          <nodes>
+            <node x="" y="">chapter.polymorphism.upcast</node>
+            <node x="" y="">chapter.polymorphism.referencecounting.ReferenceCounting</node>
+            <node x="" y="">chapter.polymorphism.dispose</node>
+            <node x="" y="">chapter.polymorphism.test1</node>
+            <node x="" y="">chapter.polymorphism.inheritanceDesigne.Vehicle</node>
+            <node x="" y="">chapter.polymorphism.inheritanceDesigne.Car</node>
+            <node x="" y="">chapter.polymorphism.shape</node>
+            <node x="" y="">chapter.polymorphism.referencecounting.Shared</node>
+            <node x="" y="">chapter.polymorphism.Bicycle</node>
+            <node x="" y="">chapter.polymorphism.inheritanceDesigne.Bus</node>
+            <node x="" y="">chapter.polymorphism.Cycle</node>
+            <node x="" y="">chapter.polymorphism.inheritanceDesigne.Bicycle</node>
+            <node x="" y="">chapter.polymorphism.downcast</node>
+            <node x="" y="">chapter.polymorphism.Unicycle</node>
+            <node x="" y="">chapter.polymorphism.referencecounting.Composing</node>
+            <node x="" y="">chapter.polymorphism.confuse</node>
+            <node x="" y="">chapter.polymorphism.novel</node>
+            <node x="" y="">chapter.polymorphism.Tricycle</node>
+            <node x="" y="">chapter.polymorphism.inheritanceDesigne.Transmogrify</node>
+            <node x="" y="">chapter.polymorphism.music</node>
+            <node x="" y="">chapter.polymorphism.rodent</node>
+            <node x="" y="">chapter.polymorphism.inheritanceDesigne.City</node>
+            <node x="" y="">chapter.polymorphism.pitfall</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="248.5" y="186.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.polymorphism.dispose">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.polymorphism.dispose</OriginalElement>
+          <nodes>
+            <node x="" y="">chapter.polymorphism.dispose.Father</node>
+            <node x="" y="">chapter.polymorphism.dispose.Grand</node>
+            <node x="" y="">chapter.polymorphism.dispose.Eat</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="83.5" y="56.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/interfaces/apply/FilterAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.interfaces">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.interfaces</OriginalElement>
+          <nodes>
+            <node x="426.0" y="539.5">chapter.interfaces.filter.HighPass</node>
+            <node x="264.0" y="738.0">chapter.interfaces.apply.FilterProcessor</node>
+            <node x="234.0" y="539.5">chapter.interfaces.filter.LowPass</node>
+            <node x="630.0" y="575.0">chapter.interfaces.filter.Waveform</node>
+            <node x="244.0" y="401.0">chapter.interfaces.filter.Filter</node>
+            <node x="311.0" y="0.0">chapter.interfaces.apply.Processor</node>
+            <node x="204.0" y="302.0">chapter.interfaces.apply.Splitter</node>
+            <node x="220.0" y="151.0">chapter.interfaces.apply.StringProcessor</node>
+            <node x="408.0" y="302.0">chapter.interfaces.apply.Upcase</node>
+            <node x="418.0" y="118.0">chapter.interfaces.apply.FilterAdapter</node>
+            <node x="-163.0" y="396.0">chapter.interfaces.apply.Apply</node>
+            <node x="0.0" y="302.0">chapter.interfaces.apply.Downcase</node>
+            <node x="0.0" y="528.0">chapter.interfaces.filter.BandPass</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="chapter.interfaces.apply.StringProcessor" target="chapter.interfaces.apply.Processor">
+              <point x="0.0" y="-38.5" />
+              <point x="296.0" y="102.0" />
+              <point x="349.0" y="102.0" />
+              <point x="-38.0" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.apply.Upcase" target="chapter.interfaces.apply.StringProcessor">
+              <point x="0.0" y="-27.0" />
+              <point x="500.0" y="277.0" />
+              <point x="346.66666666666663" y="277.0" />
+              <point x="50.66666666666663" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.apply.Apply" target="chapter.interfaces.apply.Upcase">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.Downcase" target="chapter.interfaces.apply.StringProcessor">
+              <point x="0.0" y="-27.0" />
+              <point x="92.0" y="277.0" />
+              <point x="245.33333333333334" y="277.0" />
+              <point x="-50.66666666666666" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.filter.LowPass" target="chapter.interfaces.filter.Filter">
+              <point x="0.0" y="-51.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterAdapter" target="chapter.interfaces.apply.Processor">
+              <point x="0.0" y="-62.5" />
+              <point x="478.0" y="102.0" />
+              <point x="425.0" y="102.0" />
+              <point x="38.0" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.filter.HighPass" target="chapter.interfaces.filter.Filter">
+              <point x="0.0" y="-51.0" />
+              <point x="512.0" y="503.0" />
+              <point x="370.66666666666663" y="503.0" />
+              <point x="50.66666666666663" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.apply.Splitter" target="chapter.interfaces.apply.StringProcessor">
+              <point x="0.0" y="-27.0" />
+              <point x="0.0" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.LowPass">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.Waveform">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.HighPass">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.filter.BandPass" target="chapter.interfaces.filter.Filter">
+              <point x="0.0" y="-62.5" />
+              <point x="107.0" y="503.0" />
+              <point x="269.33333333333337" y="503.0" />
+              <point x="-50.66666666666666" y="38.5" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterAdapter" target="chapter.interfaces.filter.Filter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.Apply" target="chapter.interfaces.apply.Splitter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.Apply" target="chapter.interfaces.apply.Downcase">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.filter.BandPass">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.interfaces.apply.FilterProcessor" target="chapter.interfaces.apply.FilterAdapter">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="302.5" y="289.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

@@ -5,7 +5,7 @@ import static kursk.Kutils.*;
  * Created by kursk on 2016/4/18.
  */
 interface Fastfood {
-    void move();
+   void move();
 }
 
 class Meal {
@@ -36,6 +36,7 @@ public class Sandwich implements Fastfood {
     public void move(){
 
     }
+
     private Bread b = new Bread();
     private Cheese c = new Cheese();
     private Lettuce l = new Lettuce();

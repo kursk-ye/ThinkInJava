@@ -5,6 +5,7 @@ package chapter.interfaces.page315;
  */
 public abstract class Base {
     abstract void print();
+    Object add(int i){ return i;};
 }
 
 class Derived  extends Base{
@@ -12,6 +13,7 @@ class Derived  extends Base{
     void  print(){
         System.out.print(i);
     }
+    String add(int i){return  Integer.toString(i);}
 
     public static void main(String[] args) {
         Base d = new Derived();
