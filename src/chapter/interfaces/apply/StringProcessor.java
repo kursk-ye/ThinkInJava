@@ -31,3 +31,21 @@ class Splitter extends StringProcessor {
         return Arrays.toString(((String)input).split(" "));
     }
 }
+
+class Swaps extends StringProcessor {
+    String swap(String s){
+        char[] c = s.toCharArray();
+        char temp;
+        for(int i=0; i<(c.length-1)/2; i++){
+            temp = c[i];
+            c[i] = c[c.length-1-i] ;
+            c[c.length-1-i] = temp;
+        }
+
+        return new String(c);
+    }
+
+    public String process(Object input) {
+        return swap((String)input);
+    }
+}

@@ -18,5 +18,6 @@ public class Apply {
         process(new Upcase(), s);
         process(new Downcase(), s);
         process(new Splitter(), s);
+        process(new Swaps(), s);
     }
 }
