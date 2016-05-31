@@ -8,7 +8,7 @@ public class Outer {
     private String s;
     public Outer(){
         s = "alphabet";
-        println("new Outer");
+        println("new Outer2");
     }
 
      public class Inner {
@@ -25,7 +25,7 @@ public class Outer {
     public static void main(String[] args) {
         Outer o = new Outer();
         Inner i = o.getI();
-        //Inner i2 = new Outer.Inner();
+        //Inner i2 = new Outer2.Inner();
         print(i.toString());
     }
 }
