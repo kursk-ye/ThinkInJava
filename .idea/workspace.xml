@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86c81b43-18cd-42c8-a51f-f4e8060a4b87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/control/Event.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java" afterPath="$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java" />
     </list>
@@ -29,108 +30,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Callbacks.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java">
+      <file leaf-file-name="Event.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/control/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6347826">
-              <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.65841585">
+              <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding>
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kutils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/chapter.innerclass.anonymous.Callbacks" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/chapter.innerclass.anonymous.Callbacks">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>chapter.innerclass.anonymous.Callbacks</OriginalElement>
-              <nodes>
-                <node x="167.5" y="256.0">chapter.innerclass.anonymous.Callee2</node>
-                <node x="323.0" y="407.0">chapter.innerclass.anonymous.Callbacks</node>
-                <node x="471.0" y="104.0">chapter.innerclass.anonymous.Caller</node>
-                <node x="0.0" y="116.5">chapter.innerclass.anonymous.MyIncrement</node>
-                <node x="188.0" y="128.0">chapter.innerclass.anonymous.Callee2.Closure</node>
-                <node x="340.98148148148147" y="0.0">chapter.innerclass.anonymous.Incrementable</node>
-                <node x="356.0" y="116.0">chapter.innerclass.anonymous.Callee1</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="chapter.innerclass.anonymous.Callee1" target="chapter.innerclass.anonymous.Incrementable">
-                  <point x="0.0" y="-39.0" />
-                  <point x="403.5" y="79.0" />
-                  <point x="414.98148148148147" y="79.0" />
-                  <point x="0.0" y="27.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callee2.Closure" target="chapter.innerclass.anonymous.Incrementable">
-                  <point x="0.0" y="-27.0" />
-                  <point x="262.0" y="79.0" />
-                  <point x="365.64814814814815" y="79.0" />
-                  <point x="-49.333333333333314" y="27.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callbacks" target="chapter.innerclass.anonymous.Caller">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callee2.Closure" target="chapter.innerclass.anonymous.Callee2">
-                  <point x="37.0" y="27.0" />
-                  <point x="299.0" y="231.0" />
-                  <point x="263.3333333333333" y="231.0" />
-                  <point x="38.333333333333314" y="-50.5" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callbacks" target="chapter.innerclass.anonymous.Callee2">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Caller" target="chapter.innerclass.anonymous.Incrementable">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callbacks" target="chapter.innerclass.anonymous.Callee1">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callee2" target="chapter.innerclass.anonymous.Callee2.Closure">
-                  <point x="0.0" y="0.0" />
-                  <point x="0.0" y="0.0" />
-                </edge>
-                <edge source="chapter.innerclass.anonymous.Callee2" target="chapter.innerclass.anonymous.MyIncrement">
-                  <point x="-38.33333333333334" y="-50.5" />
-                  <point x="186.66666666666666" y="231.0" />
-                  <point x="84.0" y="231.0" />
-                  <point x="0.0" y="38.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="201.0" />
-              <SelectedNodes>
-                <node>chapter.innerclass.anonymous.Callee2</node>
-              </SelectedNodes>
-              <Categories>
-                <Category>Fields</Category>
-                <Category>Constructors</Category>
-                <Category>Methods</Category>
-                <Category>Properties</Category>
-                <Category>Inner Classes</Category>
-              </Categories>
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -162,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/chapter/innerclass/enclosing/OutterDerived.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/DotThis/Outter.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/DotThis/OutterDerived.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/enclosing/Parcel3.java" />
@@ -213,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/chapter/innerclass/anonymous/exe23/B.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/anonymous/exe23/Test.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java" />
+        <option value="$PROJECT_DIR$/src/chapter/innerclass/control/Event.java" />
       </list>
     </option>
   </component>
@@ -259,6 +169,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ThinkInJava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -335,60 +267,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="anonymous" />
+              <option name="myItemId" value="control" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="innerclass" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="anonymous" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Callbacks.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -993,7 +877,8 @@
       <workItem from="1463018273638" duration="4967000" />
       <workItem from="1463966233057" duration="16945000" />
       <workItem from="1464596305232" duration="33061000" />
-      <workItem from="1464855878948" duration="4434000" />
+      <workItem from="1464855878948" duration="5300000" />
+      <workItem from="1464936651841" duration="2998000" />
     </task>
     <task id="LOCAL-00001" summary="add vcs.xml">
       <created>1459490934774</created>
@@ -1151,11 +1036,17 @@
       <option name="project" value="LOCAL" />
       <updated>1464859080861</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add rodent main method">
+      <created>1464860366799</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1464860366799</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="268047000" />
+    <option name="totallyTimeSpent" value="271911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1173,29 +1064,29 @@
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3263328" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36220473" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32125986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32718122" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18081991" sideWeight="0.49434572" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2488889" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22740741" sideWeight="0.5056543" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41102362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Kevoree Base64 Translator" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3511811" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24816984" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Module Dependencies" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41102362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32125986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32755905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1257,12 +1148,6 @@
           <properties field="num" class="chapter.polymorphism.inheritanceDesigne.Vehicle" />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="14" />
     </breakpoint-manager>
@@ -1273,31 +1158,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://JAVA/chapter.innerclass.localinnerclass">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>chapter.innerclass.localinnerclass</OriginalElement>
-          <nodes>
-            <node x="" y="">chapter.innerclass.localinnerclass.Destination</node>
-            <node x="" y="">chapter.innerclass.localinnerclass.Parcel5</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="86.0" y="100.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Inner Classes</Category>
-            <Category>Constructors</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/chapter.innerclass.localinnerclass.Student">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1524,12 +1384,12 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
           <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="false" />
+            <element signature="e#209#210#0" expanded="false" />
+            <element signature="e#240#241#0" expanded="false" />
+            <element signature="e#293#294#0" expanded="false" />
+            <element signature="e#605#606#0" expanded="false" />
+            <element signature="e#650#651#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1645,7 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,14 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44988865">
           <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding>
-            <element signature="e#206#304#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1668,14 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46770602">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#205#302#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1683,7 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1692,7 +1534,7 @@
         <state vertical-scroll-proportion="0.6926503">
           <caret line="34" column="45" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
           <folding>
-            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1768,7 +1610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="12" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1776,7 +1617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17326732">
           <caret line="5" column="30" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1784,14 +1624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24257426">
           <caret line="7" column="23" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#213#324#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1799,14 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24257426">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#213#325#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1814,7 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17326732">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1883,7 +1706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17326732">
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1920,12 +1742,12 @@
         <state vertical-scroll-proportion="0.13366337">
           <caret line="27" column="36" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="36" />
           <folding>
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
+            <element signature="e#828#829#0" expanded="false" />
+            <element signature="e#869#870#0" expanded="false" />
+            <element signature="e#912#913#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1964,10 +1786,10 @@
         <state vertical-scroll-proportion="0.65478843">
           <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#523#524#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1976,7 +1798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1984,15 +1805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5841584">
           <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-          <folding>
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2000,14 +1812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6188119">
           <caret line="28" column="32" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2015,7 +1819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41584158">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2063,71 +1866,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65841585">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#563#564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="uml://JAVA/chapter.innerclass.anonymous.Callbacks">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
           <ID>JAVA</ID>
           <OriginalElement>chapter.innerclass.anonymous.Callbacks</OriginalElement>
           <nodes>
-            <node x="167.5" y="256.0">chapter.innerclass.anonymous.Callee2</node>
-            <node x="323.0" y="407.0">chapter.innerclass.anonymous.Callbacks</node>
-            <node x="471.0" y="104.0">chapter.innerclass.anonymous.Caller</node>
-            <node x="0.0" y="116.5">chapter.innerclass.anonymous.MyIncrement</node>
-            <node x="188.0" y="128.0">chapter.innerclass.anonymous.Callee2.Closure</node>
-            <node x="340.98148148148147" y="0.0">chapter.innerclass.anonymous.Incrementable</node>
-            <node x="356.0" y="116.0">chapter.innerclass.anonymous.Callee1</node>
+            <node x="" y="">chapter.innerclass.anonymous.Callee2</node>
+            <node x="" y="">chapter.innerclass.anonymous.Callbacks</node>
+            <node x="" y="">chapter.innerclass.anonymous.Caller</node>
+            <node x="" y="">chapter.innerclass.anonymous.MyIncrement</node>
+            <node x="" y="">chapter.innerclass.anonymous.Callee2.Closure</node>
+            <node x="" y="">chapter.innerclass.anonymous.Incrementable</node>
+            <node x="" y="">chapter.innerclass.anonymous.Callee1</node>
           </nodes>
           <notes />
-          <edges>
-            <edge source="chapter.innerclass.anonymous.Callee1" target="chapter.innerclass.anonymous.Incrementable">
-              <point x="0.0" y="-39.0" />
-              <point x="403.5" y="79.0" />
-              <point x="414.98148148148147" y="79.0" />
-              <point x="0.0" y="27.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callee2.Closure" target="chapter.innerclass.anonymous.Incrementable">
-              <point x="0.0" y="-27.0" />
-              <point x="262.0" y="79.0" />
-              <point x="365.64814814814815" y="79.0" />
-              <point x="-49.333333333333314" y="27.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callbacks" target="chapter.innerclass.anonymous.Caller">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callee2.Closure" target="chapter.innerclass.anonymous.Callee2">
-              <point x="37.0" y="27.0" />
-              <point x="299.0" y="231.0" />
-              <point x="263.3333333333333" y="231.0" />
-              <point x="38.333333333333314" y="-50.5" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callbacks" target="chapter.innerclass.anonymous.Callee2">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Caller" target="chapter.innerclass.anonymous.Incrementable">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callbacks" target="chapter.innerclass.anonymous.Callee1">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callee2" target="chapter.innerclass.anonymous.Callee2.Closure">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="chapter.innerclass.anonymous.Callee2" target="chapter.innerclass.anonymous.MyIncrement">
-              <point x="-38.33333333333334" y="-50.5" />
-              <point x="186.66666666666666" y="231.0" />
-              <point x="84.0" y="231.0" />
-              <point x="0.0" y="38.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="201.0" />
-          <SelectedNodes>
-            <node>chapter.innerclass.anonymous.Callee2</node>
-          </SelectedNodes>
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="316.0" y="166.5" />
+          <SelectedNodes />
           <Categories>
             <Category>Fields</Category>
             <Category>Constructors</Category>
@@ -2140,25 +1906,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/anonymous/Callbacks.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/control/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6347826">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.65841585">
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding>
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
           </folding>
         </state>
       </provider>
