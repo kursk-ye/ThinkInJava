@@ -1,4 +1,4 @@
-package chapter.innerclass.template;
+package designMode.template;
 
 /**
  * Created by kursk on 2016/6/7.

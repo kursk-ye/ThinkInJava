@@ -1,4 +1,4 @@
-package chapter.innerclass.anonymous.carfactory;
+package designMode.factory;
 
 /**
  * Created by kursk on 2016/6/1.

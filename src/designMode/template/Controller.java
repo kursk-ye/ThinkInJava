@@ -1,4 +1,4 @@
-package chapter.innerclass.template;
+package designMode.template;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ public class Controller {
     }
     public void run(){
         while(eventlist.size() > 0){
-            for(Event e : eventlist){
+            for(Event e : new ArrayList<>(eventlist)){
                 if (e.ready()){
                     println(e);
                     e.action();
