@@ -41,6 +41,7 @@ public class Sequence3 {
             selector.next();
         }
         s3.add(10);
+        //
         s3.add(11);
         s3.add(12);
         s3.add(13);
