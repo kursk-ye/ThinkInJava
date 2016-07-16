@@ -46,7 +46,7 @@ public class ListFeatures {
         println("sublist: " + sub);
         println("pets: " + pets);
         println("10 " + pets.containsAll(sub));
-        Collections.sort(sub);
+        //Collections.sort(sub);
 
         Collections.shuffle(sub, random);
         println("shuffled list: " + sub);
