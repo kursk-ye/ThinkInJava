@@ -971,7 +971,7 @@
       <workItem from="1467860085865" duration="22000" />
       <workItem from="1467884727271" duration="18140000" />
       <workItem from="1468546278939" duration="1737000" />
-      <workItem from="1468811679566" duration="6731000" />
+      <workItem from="1468811679566" duration="6737000" />
     </task>
     <task id="LOCAL-00001" summary="add design mode">
       <created>1465357712036</created>
@@ -1001,11 +1001,18 @@
       <option name="project" value="LOCAL" />
       <updated>1468837626983</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add design mode">
+      <created>1468837635826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1468837635826</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38041000" />
+    <option name="totallyTimeSpent" value="38047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
