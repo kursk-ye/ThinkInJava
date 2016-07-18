@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e78553d-a6cf-4106-9328-9e66649cbaaa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/SequenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/groups/AddingGroups.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/groups/PrintingContainers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java" />
     </list>
     <ignored path="ThinkInJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -979,7 +971,7 @@
       <workItem from="1467860085865" duration="22000" />
       <workItem from="1467884727271" duration="18140000" />
       <workItem from="1468546278939" duration="1737000" />
-      <workItem from="1468811679566" duration="6716000" />
+      <workItem from="1468811679566" duration="6731000" />
     </task>
     <task id="LOCAL-00001" summary="add design mode">
       <created>1465357712036</created>
@@ -1002,11 +994,18 @@
       <option name="project" value="LOCAL" />
       <updated>1467884762152</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add design mode">
+      <created>1468837626983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1468837626983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38026000" />
+    <option name="totallyTimeSpent" value="38041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
@@ -1115,6 +1114,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="784">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,6 +1124,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1792,6 +1797,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="980">
           <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1799,6 +1807,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
