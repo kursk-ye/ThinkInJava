@@ -12,6 +12,7 @@ public class ListFeatures {
     public static void main(String[] args) {
         Random random = new Random(30);
         List<Pet> pets = new ArrayList<>();
+        //List<Integer> pets = new ArrayList<Integer>();
         println("1 " + pets);
 
         Hamster h = new Hamster();

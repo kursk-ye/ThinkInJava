@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e78553d-a6cf-4106-9328-9e66649cbaaa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/SequenceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/groups/AddingGroups.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/groups/PrintingContainers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java" />
     </list>
@@ -22,51 +29,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="CodeIris Favorites" />
     <favorites_list name="ThinkInJava" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Pet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/Pet.java">
+      <file leaf-file-name="ListFeatures2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListFeatures.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="258">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/List.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-601">
-              <caret line="175" column="28" selection-start-line="175" selection-start-column="15" selection-end-line="175" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collections.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/Collections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-              <folding>
-                <element signature="e#5644#5645#0" expanded="true" />
-                <element signature="e#5675#5676#0" expanded="true" />
+                <element signature="e#377#386#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,21 +80,26 @@
         <option value="$PROJECT_DIR$/src/chapter/innerclass/exe26/Second.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg2.java" />
-        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/list/Pet.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/Sequence3.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/SequenceTest.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/groups/AddingGroups.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/groups/PrintingContainers.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java" />
         <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures2.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1056" />
+    <option name="x" value="-7" />
+    <option name="width" value="1370" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -147,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -158,34 +136,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="ThinkInJava" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designMode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -240,6 +190,34 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="holdyourobjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ThinkInJava">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ThinkInJava">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT=".idea">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -340,38 +318,11 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ThinkInJava">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="ThinkInJava">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT=".idea">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -379,15 +330,127 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ListFeatures">
-    <configuration default="false" name="DroneController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/chapter/holdyourobjects/list/Pet.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager" selected="Application.ListFeatures2">
+    <configuration default="false" name="SequenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="designMode.template.*" />
+          <option name="PATTERN" value="chapter.holdyourobjects.exe3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="designMode.template.DroneController" />
+      <option name="MAIN_CLASS_NAME" value="chapter.holdyourobjects.exe3.SequenceTest" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -400,14 +463,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="AddingGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapter.innerclass.exe26.*" />
+          <option name="PATTERN" value="chapter.holdyourobjects.groups.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.innerclass.exe26.Second" />
+      <option name="MAIN_CLASS_NAME" value="chapter.holdyourobjects.groups.AddingGroups" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -420,14 +483,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BigEgg" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="PrintingContainers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapter.innerclass.override.*" />
+          <option name="PATTERN" value="chapter.holdyourobjects.groups.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.innerclass.override.BigEgg" />
+      <option name="MAIN_CLASS_NAME" value="chapter.holdyourobjects.groups.PrintingContainers" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -440,14 +503,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="BigEgg2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="chapter.innerclass.override.*" />
+          <option name="PATTERN" value="chapter.holdyourobjects.exe4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.innerclass.override.BigEgg2" />
+      <option name="MAIN_CLASS_NAME" value="chapter.holdyourobjects.exe4.Generator" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -460,14 +523,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="ListFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ListFeatures2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="chapter.holdyourobjects.list.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="chapter.holdyourobjects.list.ListFeatures" />
+      <option name="MAIN_CLASS_NAME" value="chapter.holdyourobjects.list.ListFeatures2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -882,19 +945,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.DroneController" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Second" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BigEgg" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BigEgg2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ListFeatures" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SequenceTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AddingGroups" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PrintingContainers" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Generator" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ListFeatures2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ListFeatures" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BigEgg2" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BigEgg" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Second" />
-        <item index="4" class="java.lang.String" itemvalue="Application.DroneController" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ListFeatures2" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Generator" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PrintingContainers" />
+        <item index="3" class="java.lang.String" itemvalue="Application.AddingGroups" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SequenceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -912,10 +975,11 @@
       <option name="presentableId" value="Default" />
       <updated>1465351033509</updated>
       <workItem from="1465351035319" duration="11310000" />
-      <workItem from="1466436569199" duration="544000" />
-      <workItem from="1468596547926" duration="735000" />
-      <workItem from="1468624454727" duration="1741000" />
-      <workItem from="1468658078144" duration="10402000" />
+      <workItem from="1467859898177" duration="101000" />
+      <workItem from="1467860085865" duration="22000" />
+      <workItem from="1467884727271" duration="18140000" />
+      <workItem from="1468546278939" duration="1737000" />
+      <workItem from="1468811679566" duration="6716000" />
     </task>
     <task id="LOCAL-00001" summary="add design mode">
       <created>1465357712036</created>
@@ -932,20 +996,20 @@
       <updated>1465373988042</updated>
     </task>
     <task id="LOCAL-00003" summary="add design mode">
-      <created>1468688122918</created>
+      <created>1467884762152</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1468688122918</updated>
+      <updated>1467884762152</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24732000" />
+    <option name="totallyTimeSpent" value="38026000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -955,27 +1019,54 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33277592" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11701556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18242246" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39935064" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Code Iris" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39632106" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1001,10 +1092,7 @@
           <properties />
         </line-breakpoint>
       </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1013,14 +1101,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1031,34 +1111,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/groups/PrintingContainers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding />
+    <entry file="uml://JAVA/chapter.holdyourobjects.groups.PrintingContainers">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.holdyourobjects.groups.PrintingContainers</OriginalElement>
+          <nodes>
+            <node x="-112.0" y="-58.0">chapter.holdyourobjects.groups.PrintingContainers</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="115.0" />
+          <SelectedNodes>
+            <node>chapter.holdyourobjects.groups.PrintingContainers</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/Sequence3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#123#124#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="224">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
         </state>
       </provider>
@@ -1073,7 +1175,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="280">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#123#124#0" expanded="false" />
@@ -1109,13 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designMode/template/Drones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Java1.7/jdk1.7.0_40/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1127,13 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designMode/template/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1166,13 +1254,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designMode/template/DroneController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1320,9 +1401,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="74">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#123#124#0" expanded="false" />
@@ -1330,54 +1426,437 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg2.java">
+    <entry file="uml://JAVA/chapter.holdyourobjects.exe3.Sequence3">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.holdyourobjects.exe3.Sequence3</OriginalElement>
+          <nodes>
+            <node x="-5.5" y="182.0">chapter.holdyourobjects.exe3.Sequence3.Sequence3Selector</node>
+            <node x="0.0" y="0.0">chapter.holdyourobjects.exe3.Sequence3</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="chapter.holdyourobjects.exe3.Sequence3" target="chapter.holdyourobjects.exe3.Sequence3.Sequence3Selector">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="chapter.holdyourobjects.exe3.Sequence3.Sequence3Selector" target="chapter.holdyourobjects.exe3.Sequence3">
+              <point x="0.0" y="-62.0" />
+              <point x="0.0" y="62.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-219.0" y="120.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designMode/template/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        <state relative-caret-position="140">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designMode/template/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designMode/template/Drones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/designMode.template">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>designMode.template</OriginalElement>
+          <nodes>
+            <node x="0.0" y="552.0">designMode.template.Drones.Reset</node>
+            <node x="423.5" y="241.0">designMode.template.Controller</node>
+            <node x="342.6528409090909" y="0.0">designMode.template.Event</node>
+            <node x="455.5" y="392.0">designMode.template.Drones</node>
+            <node x="194.0" y="552.5">designMode.template.Drones.Back</node>
+            <node x="371.4369318181819" y="704.0">designMode.template.DroneController</node>
+            <node x="552.9166666666666" y="552.5">designMode.template.Drones.Lower</node>
+            <node x="739.9166666666666" y="552.5">designMode.template.Drones.Foward</node>
+            <node x="374.0" y="552.5">designMode.template.Drones.Rise</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="designMode.template.DroneController" target="designMode.template.Drones.Back">
+              <point x="-32.2" y="-27.0" />
+              <point x="419.7369318181819" y="674.0" />
+              <point x="274.0" y="674.0" />
+              <point x="0.0" y="50.5" />
+            </edge>
+            <edge source="designMode.template.Controller" target="designMode.template.Event">
+              <point x="53.25" y="-50.5" />
+              <point x="583.25" y="221.0" />
+              <point x="490.4653409090909" y="221.0" />
+              <point x="40.3125" y="85.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Lower" target="designMode.template.Event">
+              <point x="41.75" y="-50.5" />
+              <point x="678.1666666666666" y="211.0" />
+              <point x="517.3403409090909" y="211.0" />
+              <point x="67.1875" y="85.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Rise" target="designMode.template.Drones">
+              <point x="39.0" y="-50.5" />
+              <point x="491.0" y="532.0" />
+              <point x="517.5833333333334" y="532.0" />
+              <point x="-12.416666666666629" y="50.0" />
+            </edge>
+            <edge source="designMode.template.DroneController" target="designMode.template.Drones.Rise">
+              <point x="0.0" y="-27.0" />
+              <point x="0.0" y="50.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Rise" target="designMode.template.Event">
+              <point x="-39.0" y="-50.5" />
+              <point x="413.0" y="221.0" />
+              <point x="436.7153409090909" y="221.0" />
+              <point x="-13.4375" y="85.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Reset" target="designMode.template.Drones">
+              <point x="58.0" y="-51.0" />
+              <point x="145.0" y="512.0" />
+              <point x="467.9166666666667" y="512.0" />
+              <point x="-62.083333333333314" y="50.0" />
+            </edge>
+            <edge source="designMode.template.Drones.Lower" target="designMode.template.Drones">
+              <point x="-41.75" y="-50.5" />
+              <point x="594.6666666666666" y="532.0" />
+              <point x="567.25" y="532.0" />
+              <point x="37.25" y="50.0" />
+            </edge>
+            <edge source="designMode.template.Drones.Foward" target="designMode.template.Drones">
+              <point x="-43.75" y="-50.5" />
+              <point x="783.6666666666666" y="522.0" />
+              <point x="592.0833333333333" y="522.0" />
+              <point x="62.08333333333326" y="50.0" />
+            </edge>
+            <edge source="designMode.template.Drones.Foward" target="designMode.template.Event">
+              <point x="43.75" y="-50.5" />
+              <point x="871.1666666666666" y="201.0" />
+              <point x="544.2153409090909" y="201.0" />
+              <point x="94.0625" y="85.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Back" target="designMode.template.Drones">
+              <point x="40.0" y="-50.5" />
+              <point x="314.0" y="522.0" />
+              <point x="492.75" y="522.0" />
+              <point x="-37.25" y="50.0" />
+            </edge>
+            <edge source="designMode.template.DroneController" target="designMode.template.Drones.Foward">
+              <point x="64.4" y="-27.0" />
+              <point x="516.3369318181819" y="684.0" />
+              <point x="827.4166666666666" y="684.0" />
+              <point x="0.0" y="50.5" />
+            </edge>
+            <edge source="designMode.template.Drones" target="designMode.template.Controller">
+              <point x="0.0" y="-50.0" />
+              <point x="0.0" y="50.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Back" target="designMode.template.Event">
+              <point x="-40.0" y="-50.5" />
+              <point x="234.0" y="211.0" />
+              <point x="409.8403409090909" y="211.0" />
+              <point x="-40.3125" y="85.5" />
+            </edge>
+            <edge source="designMode.template.Drones.Reset" target="designMode.template.Event">
+              <point x="-58.0" y="-51.0" />
+              <point x="29.0" y="532.0" />
+              <point x="62.2035984848485" y="532.0" />
+              <point x="62.2035984848485" y="191.0" />
+              <point x="356.0903409090909" y="191.0" />
+              <point x="-94.0625" y="85.5" />
+            </edge>
+            <edge source="designMode.template.DroneController" target="designMode.template.Drones">
+              <point x="32.2" y="-27.0" />
+              <point x="484.1369318181819" y="674.0" />
+              <point x="542.4166666666666" y="674.0" />
+              <point x="12.416666666666629" y="50.0" />
+            </edge>
+            <edge source="designMode.template.DroneController" target="designMode.template.Drones.Reset">
+              <point x="-64.4" y="-27.0" />
+              <point x="387.53693181818187" y="684.0" />
+              <point x="87.0" y="684.0" />
+              <point x="0.0" y="51.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0082262210796915" x="192.0" y="583.0" />
+          <SelectedNodes>
+            <node>designMode.template.DroneController</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designMode/template/DroneController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/SequenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="359" column="29" selection-start-line="359" selection-start-column="19" selection-end-line="359" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/override/BigEgg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+    <entry file="uml://JAVA/java.util.ArrayList">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.ArrayList</OriginalElement>
+          <nodes>
+            <node x="1026.0" y="1624.0">java.util.RandomAccess</node>
+            <node x="534.0" y="668.0">java.util.List</node>
+            <node x="0.0" y="782.0">java.util.AbstractCollection</node>
+            <node x="1168.0" y="1624.0">java.lang.Cloneable</node>
+            <node x="322.59749999999997" y="150.0">java.util.Collection</node>
+            <node x="128.75" y="1393.0">java.util.AbstractList</node>
+            <node x="444.59749999999997" y="0.0">java.lang.Iterable</node>
+            <node x="361.4225000000001" y="1936.0">java.util.ArrayList</node>
+            <node x="1280.0" y="1624.0">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="java.util.ArrayList" target="java.lang.Cloneable">
+              <point x="248.19999999999993" y="-637.5" />
+              <point x="1230.1225" y="1916.0" />
+              <point x="1214.0" y="1916.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.RandomAccess">
+              <point x="-1.1368683772161603E-13" y="-637.5" />
+              <point x="981.9225" y="1916.0" />
+              <point x="1087.0" y="1916.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.io.Serializable">
+              <point x="496.4" y="-637.5" />
+              <point x="1478.3225000000002" y="1916.0" />
+              <point x="1330.0" y="1916.0" />
+              <point x="0.0" y="15.5" />
+            </edge>
+            <edge source="java.util.List" target="java.util.Collection">
+              <point x="0.0" y="-337.5" />
+              <point x="855.0" y="643.0" />
+              <point x="669.0975" y="643.0" />
+              <point x="115.50000000000003" y="234.0" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.List">
+              <point x="128.25" y="-246.5" />
+              <point x="513.5" y="1368.0" />
+              <point x="694.5" y="1368.0" />
+              <point x="-160.5" y="337.5" />
+            </edge>
+            <edge source="java.util.Collection" target="java.lang.Iterable">
+              <point x="2.8421709430404007E-14" y="-234.0" />
+              <point x="0.0" y="50.0" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.List">
+              <point x="-248.20000000000016" y="-637.5" />
+              <point x="733.7225" y="1906.0" />
+              <point x="1015.5" y="1906.0" />
+              <point x="160.5" y="337.5" />
+            </edge>
+            <edge source="java.util.AbstractList" target="java.util.AbstractCollection">
+              <point x="-128.25" y="-246.5" />
+              <point x="0.0" y="223.5" />
+            </edge>
+            <edge source="java.util.ArrayList" target="java.util.AbstractList">
+              <point x="-496.4000000000001" y="-637.5" />
+              <point x="485.52250000000004" y="1916.0" />
+              <point x="385.25" y="1916.0" />
+              <point x="0.0" y="246.5" />
+            </edge>
+            <edge source="java.util.AbstractCollection" target="java.util.Collection">
+              <point x="0.0" y="-223.5" />
+              <point x="257.0" y="643.0" />
+              <point x="438.09749999999997" y="643.0" />
+              <point x="-115.5" y="234.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="113.0" y="358.0" />
+          <SelectedNodes>
+            <node>java.util.Collection</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/List.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe3/Sequence3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-601">
-          <caret line="175" column="28" selection-start-line="175" selection-start-column="15" selection-end-line="175" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="504">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/Pet.java">
+    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="3798" column="44" selection-start-line="3798" selection-start-column="44" selection-end-line="3798" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-          <folding>
-            <element signature="e#5644#5645#0" expanded="true" />
-            <element signature="e#5675#5676#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="192">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/groups/AddingGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/chapter.holdyourobjects.groups.PrintingContainers">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>chapter.holdyourobjects.groups.PrintingContainers</OriginalElement>
+          <nodes>
+            <node x="-112.0" y="-58.0">chapter.holdyourobjects.groups.PrintingContainers</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="71.0" y="115.0" />
+          <SelectedNodes>
+            <node>chapter.holdyourobjects.groups.PrintingContainers</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Inner Classes</Category>
+            <Category>Constructors</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="980">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/groups/PrintingContainers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="32" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="224">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="848" column="11" selection-start-line="848" selection-start-column="11" selection-end-line="848" selection-end-column="11" />
+          <folding>
+            <element signature="e#32532#32533#0" expanded="false" />
+            <element signature="e#32566#32567#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+          <folding>
+            <element signature="e#2573#2574#0" expanded="false" />
+            <element signature="e#2601#2602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java1.8/jdk1.8.0_77/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="394" column="21" selection-start-line="394" selection-start-column="21" selection-end-line="394" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/list/ListFeatures2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#386#0" expanded="true" />
           </folding>
         </state>
       </provider>
