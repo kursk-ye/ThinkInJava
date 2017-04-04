@@ -7,4 +7,5 @@ public class Shape {
     public void draw() {}
     public void erase() {}
     public void paint() {}
+    protected static void resize() {}
 } ///:~

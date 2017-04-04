@@ -13,4 +13,8 @@ public class Circle extends Shape {
     public void erase() { print("Circle.erase()"); }
 
     public void paint() { print("Circle.paint()"); }
+
+    public static void main(String[] args) {
+        Circle.resize();
+    }
 } ///:~
