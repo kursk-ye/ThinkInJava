@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="0e78553d-a6cf-4106-9328-9e66649cbaaa" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/list/SimpleIteration.java" />
-=======
-    <list default="true" id="30ab9806-c74c-4f6d-a019-fee5a2ee996b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/log4j_api_2_8.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
->>>>>>> 0e8f0e5912b39b4d463f9f202389b7c0e625f2cf
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThinkInJava.iml" afterPath="$PROJECT_DIR$/ThinkInJava.iml" />
     </list>
@@ -35,7 +22,6 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-<<<<<<< HEAD
     <favorites_list name="ThinkInJava" />
   </component>
   <component name="FileEditorManager">
@@ -68,9 +54,6 @@
         <option value="Class" />
       </list>
     </option>
-=======
-    <favorites_list name="CodeIris Favorites" />
->>>>>>> 0e8f0e5912b39b4d463f9f202389b7c0e625f2cf
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,7 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
@@ -260,8 +242,6 @@
           </PATH>
         </subPane>
       </pane>
-=======
->>>>>>> 0e8f0e5912b39b4d463f9f202389b7c0e625f2cf
       <pane id="ProjectPane">
         <subPane>
           <PATH>
