@@ -9,6 +9,6 @@ import org.apache.logging.log4j.Logger;
 public class ComApp {
     public ComApp(){
         Logger logger = LogManager.getLogger(ComApp.class);
-        logger.error("COM :: LEVEL :: COMAPP CLASS ERROR MESSAGE");
+        logger.error("COM :: LEVEL :: COMAPP CLASS ERROR MESSAGE :: "+ logger.getName());
     }
 }

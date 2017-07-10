@@ -9,6 +9,6 @@ import org.apache.logging.log4j.Logger;
 public class NetSoftApp {
     public NetSoftApp(){
         Logger logger = LogManager.getLogger(NetSoftApp.class);
-        logger.error("NET :: NETSOFT :: LEVEL :: NETSOFTAPP CLASS ERROR MESSAGE");
+        logger.error("NET :: NETSOFT :: LEVEL :: NETSOFTAPP CLASS ERROR MESSAGE"+ logger.getName());
     }
 }
