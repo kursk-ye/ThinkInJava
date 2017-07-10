@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="Console">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="ERROR">
+            <AppenderRef ref="Console"/>
+        </Root>
+        <logger name="log4j2.com.ComApp" level="TRACE">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <logger name="log4j2.com.soft.ComSoftApp" level="TRACE">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <logger name="log4j2.net.NetApp" level="ERROR">
+            <AppenderRef ref="Console"/>
+        </logger>
+        <logger name="log4j2.net.soft.NetSoftApp" level="ERROR">
+            <AppenderRef ref="Console"/>
+        </logger>
+    </Loggers>
+</Configuration>
