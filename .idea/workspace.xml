@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ab9806-c74c-4f6d-a019-fee5a2ee996b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page357/Parcel7.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page357/Parcel8.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page359/AnonymousConstrucotr.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page359/Parcel9.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page360/Parcel10.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/polymorphism/exec1/Glyph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/polymorphism/exec1/PolyConstructors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/polymorphism/exec1/RoundGlyph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/kursk/Not.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/log4j2/com/kursk/App.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/Test.xml" afterPath="$PROJECT_DIR$/conf/Test.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/interfaces/collisions/C.java" afterPath="$PROJECT_DIR$/src/chapter/interfaces/collisions/C.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/ComApp.java" afterPath="$PROJECT_DIR$/src/com/ComApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/journaldev/ComJournalDevApp.java" afterPath="$PROJECT_DIR$/src/com/journaldev/ComJournalDevApp.java" />
     </list>
     <ignored path="ThinkInJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1076,7 +1061,7 @@
       <workItem from="1503130515146" duration="2162000" />
       <workItem from="1503316038577" duration="906000" />
       <workItem from="1505829113450" duration="844000" />
-      <workItem from="1505889642915" duration="4602000" />
+      <workItem from="1505889642915" duration="4614000" />
     </task>
     <task id="LOCAL-00001" summary="new log4j2">
       <created>1499657116998</created>
@@ -1099,11 +1084,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499679616032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I know about logconfigure">
+      <created>1505905654435</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1505905654435</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26412000" />
+    <option name="totallyTimeSpent" value="26424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1117,7 +1109,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297587" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28060672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28060672" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
