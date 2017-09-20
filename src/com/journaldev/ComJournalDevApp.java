@@ -9,5 +9,5 @@ import org.apache.logging.log4j.Logger;
 public class ComJournalDevApp {
     public ComJournalDevApp(){
         Logger logger = LogManager.getLogger(ComJournalDevApp.class);
-        logger.debug("COM :: JournalDev :: LEVEL :: ComJournalDevApp debug Message ::");
+        logger.debug("| COM _ JournalDev :: LEVEL :: ComJournalDevApp debug Message ::");
     }}
