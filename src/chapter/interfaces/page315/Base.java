@@ -8,15 +8,22 @@ public abstract class Base {
     Object add(int i){ return i;};
 }
 
-class Derived  extends Base{
-    private int i=123;
-    void  print(){
+class Derived  extends Base {
+    private int i = 123;
+
+    void print() {
         System.out.print(i);
     }
-    String add(int i){return  Integer.toString(i);}
+
+    String add(int i) {
+        return Integer.toString(i);
+    }
 
     public static void main(String[] args) {
         Base d = new Derived();
         d.print();
     }
 }
+
+
+

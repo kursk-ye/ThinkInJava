@@ -9,16 +9,16 @@
         <Root level="ERROR">
             <AppenderRef ref="Console"/>
         </Root>
-        <logger name="log4j2.com" level="TRACE">
+        <logger name="log4j2.com" level="ERROR">
             <AppenderRef ref="Console"/>
         </logger>
-        <logger name="log4j2.com.ComApp" level="TRACE">
+        <logger name="log4j2.com.ComApp" level="ERROR">
             <AppenderRef ref="Console"/>
         </logger>
-        <logger name="log4j2.com.soft" level="TRACE">
+        <logger name="log4j2.com.soft" level="ERROR">
         <AppenderRef ref="Console"/>
         </logger>
-        <logger name="log4j2.com.soft.ComSoftApp" level="TRACE">
+        <logger name="log4j2.com.soft.ComSoftApp" level="ERROR">
             <AppenderRef ref="Console"/>
         </logger>
         <logger name="log4j2.net.NetApp" level="ERROR">

@@ -1,18 +1,20 @@
 package chapter.polymorphism.upcast;
 
-import chapter.polymorphism.upcast.sun.Sun;
+import chapter.polymorphism.upcast.sun.Child;
+
+import static kursk.Kutils.println;
 
 /**
  * Created by kursk on 2016/4/12.
  */
 public class Test {
-    static void run(Parent p){
-        p.Prun();
+
+    static void work(Parent p){
+        println(p.name);
     }
 
     public static void main(String[] args) {
-        Parent p = new Sun();
-        run(p);
-
+        Child p = new Child();
+        work(p);
     }
 }

@@ -6,20 +6,5 @@ import static kursk.Kutils.*;
  */
 
 public class Parent {
-    private String name = "parent";
-    private String sex = "Male";
-
-    private void run(){
-        print("parent run");
-    }
-
-    protected void Manrun(){
-        run();
-    }
-
-    public void Prun(){
-        run();
-    }
-
-
+    public String name = "parent";
 }
