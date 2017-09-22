@@ -8,7 +8,7 @@ import static kursk.Kutils.*;
 interface  int1{
     void f();
     class InnerClass{
-        void method1(){println("nest class method1");};
+        static void method1(){println("nest class method1");};
     }
 }
 
@@ -18,6 +18,7 @@ public class NestClassInterface implements int1 {
     public static void main(String[] args) {
         NestClassInterface c = new NestClassInterface();
         c.f();
-        c.InnerClass.method1();
+        InnerClass.method1();
+
     }
 }
