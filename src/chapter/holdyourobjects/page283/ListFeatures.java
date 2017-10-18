@@ -2,8 +2,7 @@ package chapter.holdyourobjects.page283;
 
 import chapter.typeinfo.pets.*;
 
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 import static kursk.Kutils.print;
 import static kursk.Kutils.println;
@@ -35,5 +34,31 @@ public class ListFeatures {
         println("9: " + pets);
 
         List<Pet> sub = pets.subList(1,4);
+        println("subList:" + sub);
+        println("10: " + pets.containsAll(sub));
+        Collections.sort(sub);
+        println("sorted subList:" + sub);
+        println("11 sorted: " + pets.containsAll(sub));
+        Collections.shuffle(sub, rand);
+        println("shuffled subList: " + sub);
+        println("12: " + pets.containsAll(sub));
+
+        List<Pet> copy = new ArrayList<Pet>(pets);
+        sub = Arrays.asList(pets.get(1),pets.get(4));
+        println("sub: " + sub);
+        copy.retainAll(sub);
+        println("13: " + copy);
+        copy = new ArrayList<Pet>(pets);
+        copy.remove(2);
+        println("pets: " + pets);
+        println("14:" + copy);
+        copy.removeAll(sub);
+        println("15: " +copy);
+
+        copy.set(1, new Mouse());
+        println("16: "+ copy);
+
+        copy.addAll(2, sub);
+        println("17: " + copy);
     }
 }
