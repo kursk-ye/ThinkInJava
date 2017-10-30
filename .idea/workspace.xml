@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ab9806-c74c-4f6d-a019-fee5a2ee996b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/page391/ApplesAndOrangesWithoutGenerics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/page392/ApplesAndOrangesWithGenerics.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/page396/AddingGroups.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page363/Games.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page365/Parcel11.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/page280/AddingGroups.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page376/Controller.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page376/Event.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page376/GreenhouseControls.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Cat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Cymric.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Dog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/EgyptianMau.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Hamster.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Individual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/LiteralPetCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Manx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Mouse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Mutt.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Pet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/PetCreator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Pets.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Pug.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Rat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/typeinfo/pets/Rodent.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/chapter/innerclass/page361/Factories.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/innerclass/page361/Factories.java" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page361/Factories.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe4/Generator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/innerclass/exercise20/NestClassInterface.java" afterPath="$PROJECT_DIR$/src/chapter/innerclass/exercise20/NestClassInterface.java" />
     </list>
     <ignored path="ThinkInJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,7 +67,18 @@
     <fileColor scope="Non-Project Files (Material Palenight)" color="2f2e43" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="AddingGroups.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/page396/AddingGroups.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -222,7 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -367,7 +397,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1093,6 +1123,8 @@
       <workItem from="1506040718827" duration="3800000" />
       <workItem from="1506321101826" duration="8112000" />
       <workItem from="1508377079708" duration="833000" />
+      <workItem from="1508389000577" duration="12000" />
+      <workItem from="1509349728407" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="new log4j2">
       <created>1499657116998</created>
@@ -1154,7 +1186,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79898000" />
+    <option name="totallyTimeSpent" value="80234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1166,7 +1198,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1600" height="846" extended-state="6" />
+    <frame x="0" y="0" width="1600" height="846" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1183,7 +1215,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11840412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120978124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1528,13 +1560,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/page361/Factories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/page361/Factories.java" />
     <entry file="file://$PROJECT_DIR$/src/chapter/innerclass/page363/Games.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1586,7 +1612,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/page396/AddingGroups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="390">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>

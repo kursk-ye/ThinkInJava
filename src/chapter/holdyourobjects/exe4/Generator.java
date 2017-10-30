@@ -2,37 +2,43 @@ package chapter.holdyourobjects.exe4;
 
 import java.util.*;
 
-import static kursk.Kutils.println;
+import static kursk.Kutils.*;
 
 /**
- * Created by kursk on 2016/7/12.
+ * Created by kursk on 10/14/2017.
  */
 public class Generator {
-    private int i=0;
-    public String next(){
-        switch(i) {
+
+    String next(int i){
+        switch (i){
             default:
-            case 0 : i++; return " The Shawshank Redemption";
-            case 1 : i++; return "The Godfather";
-            case 2 : i++; return " The Godfather: Part II";
-            case 3 : i++; return "The Dark Knight";
-            case 4 : i++; return "Schindler's List";
-            case 5 : i++; return "The Lord of the Rings: The Return of the King";
-            case 6 : i++; return " The Lord of the Rings: The Fellowship of the Ring";
-            case 7 : i=0; return " Inception ";
+            case 0: return "The Shawshank Redemption (1994)";
+            case 1: return "The Godfather (1972)";
+            case 2: return "The Godfather: Part II (1974)";
+            case 3: return "The Dark Knight (2008)";
+            case 4: return "12 Angry Men (1957)";
+            case 5: return "Schindler's List (1993)";
+            case 6: return "Pulp Fiction (1994)";
+            case 7: return "The Lord of the Rings: The Return of the King (2003)";
+            case 8: return "The Good, the Bad and the Ugly (1966)";
+            case 9: return "Fight Club (1999)";
+            case 10: return "The Lord of the Rings: The Fellowship of the Ring (2001)";
         }
     }
 
-    public Collection fill(Collection c, int n){
-        for(int i=0; i<n ;i++) c.add(next());
+    Collection fill(Collection c){
+        int i;
+        for(i=0; i<=10; i++) c.add(next(i));
         return c;
     }
 
     public static void main(String[] args) {
         Generator g = new Generator();
-        println(g.fill(new ArrayList<String>(), 10));
-        println(g.fill(new LinkedList<String>(), 10));
-        println(g.fill(new HashSet<String>(), 10));
-        println(g.fill(new LinkedHashSet<String>(), 10));
+        println(g.fill(new ArrayList<>()));
+        println(g.fill(new LinkedList<>()));
+        println(g.fill(new HashSet<>()));
+        println(g.fill(new LinkedHashSet<>()));
+        println(g.fill(new TreeSet<>()));
     }
+
 }

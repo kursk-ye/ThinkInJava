@@ -1,5 +1,6 @@
 package chapter.innerclass.exercise20;
 
+import static chapter.innerclass.exercise20.int1.InnerClass.*;
 import static kursk.Kutils.*;
 
 /**
@@ -8,7 +9,7 @@ import static kursk.Kutils.*;
 interface  int1{
     void f();
     class InnerClass{
-        static void method1(){println("nest class method1");};
+        void method1(){println("nest class method1");};
     }
 }
 
@@ -18,7 +19,7 @@ public class NestClassInterface implements int1 {
     public static void main(String[] args) {
         NestClassInterface c = new NestClassInterface();
         c.f();
-        InnerClass.method1();
+        //int1.InnerClass c2 = c.new InnerClass();
 
     }
 }
