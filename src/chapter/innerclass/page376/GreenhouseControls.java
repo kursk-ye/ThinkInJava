@@ -1,6 +1,6 @@
 package chapter.innerclass.page376;
 
-import org.apache.logging.log4j.core.config.ConfigurationFactory;
+//import org.apache.logging.log4j.core.config.ConfigurationFactory;
 
 /**
  * Created by kursk on 9/22/2017.
