@@ -32,10 +32,11 @@ public class ListFeatures {
 
         pets.add(3, new Mouse());
         println("9: " + pets);
-
         List<Pet> sub = pets.subList(1,4);
         println("subList:" + sub);
-        println("10: " + pets.containsAll(sub));
+        sub.add(new Pet());
+        println("10: pets " + pets);
+        println("10: sub " + sub);
         Collections.sort(sub);
         println("sorted subList:" + sub);
         println("11 sorted: " + pets.containsAll(sub));

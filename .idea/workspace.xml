@@ -4,7 +4,7 @@
     <list default="true" id="30ab9806-c74c-4f6d-a019-fee5a2ee996b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe5/Exe5.java" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/exe5/Exe5.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/innerclass/page376/GreenhouseControls.java" afterPath="$PROJECT_DIR$/src/chapter/innerclass/page376/GreenhouseControls.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java" afterPath="$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java" />
     </list>
     <ignored path="ThinkInJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ListFeatures.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListFeatures.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="1092">
+              <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,14 +57,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Exe5.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Exe5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe5/Exe5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+            <state relative-caret-position="1690">
+              <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#376#385#0" expanded="true" />
+                <element signature="e#295#304#0" expanded="true" />
+                <element signature="e#1528#1537#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,6 +80,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>subList</find>
+      <find>var5</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,6 +135,7 @@
         <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/page392/ApplesAndOrangesWithGenerics.java" />
         <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/page396/AddingGroups.java" />
         <option value="$PROJECT_DIR$/src/chapter/innerclass/page376/GreenhouseControls.java" />
+        <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java" />
         <option value="$PROJECT_DIR$/src/chapter/holdyourobjects/exe5/Exe5.java" />
       </list>
     </option>
@@ -429,28 +437,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="page283" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThinkInJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chapter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="holdyourobjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exe5" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1185,7 +1171,7 @@
       <workItem from="1508377079708" duration="833000" />
       <workItem from="1508389000577" duration="12000" />
       <workItem from="1509349728407" duration="2806000" />
-      <workItem from="1509518670063" duration="7404000" />
+      <workItem from="1509518670063" duration="15675000" />
     </task>
     <task id="LOCAL-00001" summary="new log4j2">
       <created>1499657116998</created>
@@ -1243,11 +1229,18 @@
       <option name="project" value="LOCAL" />
       <updated>1506040273238</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge branch 'master' of https://github.com/kursk-ye/ThinkInJava&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml">
+      <created>1509612894835</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1509612894835</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90120000" />
+    <option name="totallyTimeSpent" value="98391000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1272,12 +1265,12 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46549192" sideWeight="0.494852" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3171806" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31571218" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.48713" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12226512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12226512" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967825" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1310,7 +1303,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1323,8 +1316,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../download/log4j2/apache-log4j-2.8.2-bin/log4j-api-2.8.2.jar!/org/apache/logging/log4j/spi/AbstractLogger.class" />
-    <entry file="jar://$PROJECT_DIR$/../../download/log4j2/apache-log4j-2.8.2-bin/log4j-core-2.8.2.jar!/org/apache/logging/log4j/core/Logger.class" />
     <entry file="jar://$PROJECT_DIR$/../../download/log4j2/apache-log4j-2.8.2-bin/log4j-core-2.8.2.jar!/org/apache/logging/log4j/core/config/AwaitCompletionReliabilityStrategy.class" />
     <entry file="jar://$PROJECT_DIR$/../../download/log4j2/apache-log4j-2.8.2-bin/log4j-core-2.8.2.jar!/org/apache/logging/log4j/core/config/LoggerConfig.class" />
     <entry file="file://$PROJECT_DIR$/src/log4j2/com/ComApp.java" />
@@ -1353,13 +1344,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/designMode/Children.java" />
     <entry file="file://$PROJECT_DIR$/src/log4j2/krusk/KServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/kursk/t2/Super.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
@@ -1679,34 +1663,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/List.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
-          <caret line="73" column="6" lean-forward="false" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+          <caret line="83" column="12" lean-forward="false" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java">
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="227">
+          <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1276#1277#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kursk/Kutils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/Collections.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="202" column="21" lean-forward="false" selection-start-line="202" selection-start-column="21" selection-end-line="202" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/exe5/Exe5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="1690">
+          <caret line="65" column="32" lean-forward="true" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#376#385#0" expanded="true" />
+            <element signature="e#295#304#0" expanded="true" />
+            <element signature="e#1528#1537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter/holdyourobjects/page283/ListFeatures.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="51" column="38" lean-forward="false" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,9 +1,6 @@
 package chapter.holdyourobjects.exe5;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Random;
+import java.util.*;
 
 import static kursk.Kutils.println;
 
@@ -53,6 +50,20 @@ public class Exe5 {
         println("11: " + list1);
         println("11: sublist is " + sub);
         println("11: " + list1.containsAll(sub));
+
+        Collections.shuffle(sub,rand);
+        println("12: " + list1);
+        println("12: " + sub);
+
+        sub = Arrays.asList(list1.get(1) , list1.get(7) , list1.get(6));
+        println("13: " + sub);
+        List<Integer> copy = new ArrayList<Integer>(sub);
+        println("13: " + copy);
+        copy.remove(2);
+        println("13: " + list1);
+        println("13: " + sub);
+        list1.retainAll(sub);
+        println("14: " + list1);
 
     }
 }
