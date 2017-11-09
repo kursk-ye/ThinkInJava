@@ -11,7 +11,10 @@ import static kursk.Kutils.*;
  */
 public class Sequence {
     private ArrayList<Object> items;
-    private int next = 0;
+
+    Sequence(){
+        this.items = new ArrayList<>();
+    }
 
     public void add(Object x) {
         items.add(x);
