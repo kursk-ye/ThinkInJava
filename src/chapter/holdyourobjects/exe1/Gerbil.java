@@ -10,7 +10,7 @@ import static kursk.Kutils.println;
 public class Gerbil {
     private int gerbilNumber;
 
-    Gerbil(int i){
+    public Gerbil(int i){
         this.gerbilNumber = i;
     }
 
