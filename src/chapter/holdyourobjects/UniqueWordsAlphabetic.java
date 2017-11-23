@@ -1,7 +1,11 @@
 package chapter.holdyourobjects;
 
+import tij4.net.mindview.util.TextFile;
+
 import java.util.Set;
 import java.util.TreeSet;
+
+import static kursk.Kutils.println;
 
 
 /**
@@ -9,7 +13,7 @@ import java.util.TreeSet;
  */
 public class UniqueWordsAlphabetic {
     public static void main(String[] args) {
-        Set<String> words = new TreeSet<String>();
-        //words.addAll(new TextFile())
+        Set<String> words = new TreeSet<String>(new TextFile("MapOfList.java"));
+        println(words);
     }
 }
