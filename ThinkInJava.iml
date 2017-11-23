@@ -7,17 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library" exported="">
-      <library name="tij4">
-        <CLASSES />
-        <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../TIJ4-code" />
-          <root url="file://$MODULE_DIR$/../TIJ4-code/io" />
-          <root url="file://$MODULE_DIR$/../TIJ4-code/io/xfiles" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="library" name="TIJ4-code" level="project" />
   </component>
 </module>
