@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="exploded-war" name="klog4j2">
-    <output-path>$PROJECT_DIR$/out/artifacts/klog4j2</output-path>
-    <root id="root" />
-  </artifact>
-</component>
