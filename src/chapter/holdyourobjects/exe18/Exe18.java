@@ -3,6 +3,7 @@ package chapter.holdyourobjects.exe18;
 
 import java.util.*;
 
+import static kursk.Kutils.print;
 import static kursk.Kutils.println;
 
 /**
@@ -28,7 +29,7 @@ public class Exe18 {
         println(map);
 
         Set<String> sortedKey = new TreeSet<String>(map.keySet());
-
+        print("TreeSet: ");
         println(sortedKey);
 
         Map<String,String> sortedMap =  new LinkedHashMap<String,String>();
@@ -37,6 +38,24 @@ public class Exe18 {
             sortedMap.put(s , map.get(s));
         }
 
+        println(sortedMap);
+
+        Set<String> hashSetKey = new HashSet<String>(map.keySet());
+        print("HashSet: ");
+        println(hashSetKey);
+        Map<String,String> sortedMap2 =  new HashMap<String,String>();
+        for(String s : hashSetKey ){
+            sortedMap2.put(s , map.get(s));
+        }
+        println(sortedMap);
+
+        Set<String> hashLinkedSetKey = new LinkedHashSet<String>(map.keySet());
+        print("LinkedHashSet: ");
+        println(hashLinkedSetKey);
+        Map<String,String> sortedMap3 =  new LinkedHashMap<String,String>();
+        for(String s : hashLinkedSetKey ){
+            sortedMap3.put(s , map.get(s));
+        }
         println(sortedMap);
     }
 }
