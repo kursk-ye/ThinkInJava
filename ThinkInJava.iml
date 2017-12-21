@@ -10,7 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../tools_jar/javassist.jar!/" />
+          <root url="jar://$MODULE_DIR$/../tool_jars/javassist.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
