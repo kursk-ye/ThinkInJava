@@ -15,7 +15,7 @@ import static kursk.Kutils.println;
  */
 public class UniqueWordsAlphabetic {
     public static void main(String[] args) {
-        Set<String> words = new TreeSet<String>(new TextFile("WEB.txt","\\W+"));
+        Set<String> words = new TreeSet<String>(new TextFile("MapOfList.java","\\W+"));
         for(String s: words){
             println(s);
         }

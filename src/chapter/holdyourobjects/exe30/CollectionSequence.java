@@ -67,6 +67,5 @@ public class CollectionSequence implements Collection<Pet> {
         CollectionSequence c = new CollectionSequence();
         InterfaceVsIterator.display(c);
         InterfaceVsIterator.display(c.iterator());
-
     }
 }
