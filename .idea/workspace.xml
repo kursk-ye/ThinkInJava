@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ab9806-c74c-4f6d-a019-fee5a2ee996b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/string/Concatenation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/string/Conversion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/string/Exe7.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/string/InfiniteRecursion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/chapter/string/Splitting.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ThinkInJava.iws" />
@@ -1052,7 +1047,7 @@
       <workItem from="1514191148322" duration="9000" />
       <workItem from="1514373691943" duration="2428000" />
       <workItem from="1514444077834" duration="4643000" />
-      <workItem from="1515554833621" duration="406000" />
+      <workItem from="1515554833621" duration="428000" />
     </task>
     <task id="LOCAL-00001" summary="new log4j2">
       <created>1499657116998</created>
@@ -1236,11 +1231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1514164545841</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Merge branch 'master' of https://github.com/kursk-ye/ThinkInJava&#10;&#10;# Conflicts:&#10;#&#9;.idea/misc.xml&#10;#&#9;.idea/workspace.xml">
+      <created>1515555257011</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1515555257011</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204725000" />
+    <option name="totallyTimeSpent" value="204747000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1661,6 +1663,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="8" column="19" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,6 +1678,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#314#333#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1682,6 +1691,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="38" column="30" lean-forward="false" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1689,6 +1701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
