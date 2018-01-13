@@ -20,10 +20,10 @@ public class WhoCalled {
     static void h(){ g(); }
 
     public static void main(String[] args) {
-        f();
+/*        f();
         println("--------------------");
         g();
-        println("--------------------");
+        println("--------------------");*/
         h();
     }
 }
